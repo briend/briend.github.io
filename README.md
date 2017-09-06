@@ -1,7 +1,7 @@
 ## Brien Dieterle
 
-[https://www.flickr.com/photos/briend/] (My Images)
+[My Images] (https://www.flickr.com/photos/briend/)
 
-[https://www.youtube.com/user/briendieterle] (My Videos)
+[My Videos] (https://www.youtube.com/user/briendieterle)
 
-[https://github.com/briend] (My Projects)
+[My Projects] (https://github.com/briend)
