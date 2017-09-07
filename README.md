@@ -11,7 +11,7 @@ The 3 grey rectangles below are identical and have no color, yet the square on t
 
 ![Contrast Effect](https://user-images.githubusercontent.com/6015639/30140938-e5338892-932c-11e7-9b34-949dd61dfe26.png)
 
-Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/Contrast_effect), how are we supposed to use these things with any degree of precision or control?  Obviously, one answer would be years and years of practice and learning to compensate for these effects, so that you know what to expect when you place a grey color near a red, and so on.  Eventually we can make good color decisions within a cacaophony of interference.  Or, we could try to minimize the interference. 
+Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/Contrast_effect), how are we supposed to use these things with a high degree of precision and control?
 
 ![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png)
 
