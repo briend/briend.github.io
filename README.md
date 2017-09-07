@@ -14,11 +14,11 @@ Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/C
 
 ![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png)
 
-Corel Painter's "Temporal Colors Palette" gets it somewhat better, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface and the vivid color wheel still impose a significant Contrast Effect upon your color picking decisions:
+Corel Painter's "Temporal Colors Palette" gets it somewhat better, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface with the vivid color wheel still impose a significant Contrast Effect upon your color picking decisions.
 
 ![Corel Temporal Palette](https://user-images.githubusercontent.com/6015639/30140110-0f4f69e4-9327-11e7-95d6-5351854fec64.png)
 
-It seems that it's impossible to select a color from an interface without the interface also influencing the color selection.  So, why don't we get rid of the interface and allow the color selection to be influenced by the context within the actual painting?  I should add, we don't want to isolate our colors on some virtual palette on another monitor or in another universe: we _want_ the contrast effect _from our painting_ (_not_ our interface or anything else) to influence our color decisions. To achieve this we can place little swatches of color directly on our painting; just like getting paint samples from the home improvement store!  Except here, we can have unlimited swatches for free without getting the authorities involved.
+It seems that it's impossible to select a color from an interface without the interface also influencing the color selection.  Does this explain our tendency to select extremely saturated colors?  Is this one reason why so many digital paintings "look digital"? Why don't we just get rid of the interface and allow the color selection to be influenced by the context within the actual painting?  I should add, we don't want to isolate our colors on some virtual palette on another monitor or in another universe: we _want_ the contrast effect _from our painting_ (_not_ our interface or anything else) to influence our color decisions. To achieve this we can place little swatches of color directly on our painting; just like getting paint samples from the home improvement store!  Except here, we can have unlimited swatches for free without getting the authorities involved.
 
 ![interface-less color selector](https://user-images.githubusercontent.com/6015639/30137831-0f476df0-931a-11e7-82ce-811f6f67d410.png)
 
@@ -47,7 +47,9 @@ If you think you might be clever and force RGB into some kind of subtractive mod
 
 ![Subtractive Mixing](https://user-images.githubusercontent.com/6015639/30145885-6d4f4d26-9349-11e7-983f-607494f1d3cd.png)
 
-Scott Burns describes the problem in [much more detail](http://scottburns.us/subtractive-color-mixture/) and, helpfully, provides a rather [elegant solution](http://scottburns.us/reflectance-curves-from-srgb/).  I can't say I understand the math at all, but the premise is to essentially synthesize a plausible physical "pigment primary" for every possible color in the sRGB color space.  That may sound impressive, having 16,777,216 pure pigments to work with.  However, you would never go to the art store and buy a tube of pure "slightly beige off-white" and a tube of "slightly more beige off-white".
+Scott Burns describes the problem in [much more detail](http://scottburns.us/subtractive-color-mixture/) and, helpfully, provides a rather [elegant solution](http://scottburns.us/reflectance-curves-from-srgb/).  I can't say I understand the math at all, but the premise is to essentially synthesize a plausible physical "pigment primary" for every possible color in the sRGB color space.  That may sound impressive, having 16,777,216 pure pigments to work with.  However, you would never go to the art store and buy a tube of pure "slightly beige off-white" paint to go with your collection of 50,000 very slightly different colored tubes of paint back home.
+
+Rather, instead we have something quite a bit more than 360 tubes of paint, if you consider each degree on the wheel.  I'm not even sure how to calcuate how many, but I'm sure it is in the thousands.  This represents our color wheel of pure pigments.
 
 So, instead of an RGB color like yellow, which is 1,1,0, we'd have an entire "reflectance curve" which is essentially the same thing except thirty-six numbers instead of three.  This curve describes what percentage of light is reflected back to the eye for each 10 nanometer slice of the visible light spectrum.  So, black would be all zeros (or very close to zero) and white would be all ones.  As Scott explains, there are infinite varieties of curves that could produce the same color, but nature seems to like "rounded off" curves that have gentle slopes.  This [formula](http://scottburns.us/wp-content/uploads/2015/04/ILLSS.txt) to find these curves is the great gift Scott has given us all.  Thanks Scott!!
 
@@ -66,4 +68,4 @@ Clearly, the subtractive mode is more familar and pleasant for anyone interested
 
 ![hue shift image](https://user-images.githubusercontent.com/6015639/30147782-056b3556-9355-11e7-95d2-75f44d511f8b.png)
 
-Linear Additive stays very bright and vivid, which the other two modes are more dim.  The Standard Additive and Subtractive modes don't seem very different here, which is precisely why it is considered "good enough" for most programmers and artists.  Hopefully Scott Burns' model will become the new "good enough" until we reach the next breakthrough in simulating pigments.
+Linear Additive stays very bright and vivid, while the other two modes are more dim.  The Standard Additive and Subtractive modes don't seem very different here, which is probably why the Standard Additive is considered "good enough" for most programmers and artists.  Hopefully Scott Burns' model will become the new "good enough" until we reach the next breakthrough in simulating pigments.
