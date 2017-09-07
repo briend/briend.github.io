@@ -26,7 +26,7 @@ The only problem now is that the interface has to exist somewhere and be operabl
 
 ## Color Spaces
 
-Most programs will give you color selectors in the [HSV or HSL](https://en.wikipedia.org/wiki/HSL_and_HSV) color space.  There are [many more models](http://c-128.freeforums.net/thread/94/color-chroma-saturation) to sift through.  The important thing for us is not what the wheels look like. Remember, we just got done talking about how the _interface will blind you_.  What we need is a color model that is intuitive and practical for the artist to use with a few buttons.
+Most programs will give you color selectors in the [HSV or HSL](https://en.wikipedia.org/wiki/HSL_and_HSV) color space.  There are [many more models](http://c-128.freeforums.net/thread/94/color-chroma-saturation) to sift through.  The important thing for us is not what the wheels look like. Remember, we just got done talking about how the _interface will blind you_.  That includes any kind of color wheel.  What we need is a color model that is intuitive and practical for the artist to use with a few buttons.
 
 Traditional artists don't do work in terms of HSV, RGB, CMYK, etc.  They work usually work in [Tints, Tones, Shades](https://en.wikipedia.org/wiki/Tints_and_shades]), and [Hue](https://en.wikipedia.org/wiki/Hue).  Fortunately, the [HCY](http://chilliant.blogspot.com/2012/08/rgbhcy-in-hlsl.html) colorspace seems to map directly to these dimennsions in a straightforward manner:
 
