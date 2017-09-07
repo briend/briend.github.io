@@ -42,7 +42,7 @@ Finally, H (hue).  What seems like the most straightforward dimension is actuall
 
 ## Subtractive vs Additive Color Mixing
 
-Perhaps the greatest hurdle facing digital art's approximation of traditional media is the fact that almost any program works in a method better suited for lights instead of paints.  That is, light bulbs and lasers instead of actual pastel chalks, oil paints, acrylics, etc.  In other words, it's completely backwards and upside-down.
+Perhaps the greatest hurdle facing digital program's approximation of traditional media is the fact that almost any program works in a method better suited for lights instead of paints.  That is, light bulbs and lasers instead of actual pastel chalks, oil paints, acrylics, etc.  In other words, it's completely backwards and upside-down.
 
 If you think you might be clever and force RGB into some kind of subtractive mode by simply multiplying your colors together instead of adding them, you're going to have a [bad time](https://user-images.githubusercontent.com/6015639/30145745-5bcdb14c-9348-11e7-91bb-201747b398d3.png).  Most colors will blend to horrible greys or even blacks unless you use precisely the colors Cyan, Magenta, and Yelllow:
 
