@@ -8,6 +8,7 @@
 ## Contrast Effect
 
 The 3 grey rectangles below are identical and have no color, yet the square on the left appears bluish, and the right appears reddish.
+
 ![Contrast Effect](https://user-images.githubusercontent.com/6015639/30140938-e5338892-932c-11e7-9b34-949dd61dfe26.png)
 
 Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/Contrast_effect), how are we supposed to use these things with any degree of precision or control?
