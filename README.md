@@ -1,10 +1,6 @@
 # Brien Dieterle
 
-[My Gallery](https://www.flickr.com/photos/briend/)
-
-[My Videos](https://www.youtube.com/user/briendieterle)
-
-[My Projects](https://github.com/briend)
+[My Gallery](https://www.flickr.com/photos/briend/) | [My Videos](https://www.youtube.com/user/briendieterle) | [My Projects](https://github.com/briend)
 
 
 # Problems In Painting
@@ -34,7 +30,7 @@ Traditional artists don't do work in terms of HSV, RGB, CMYK, etc.  They work us
 Here is the Y (luminosity) component, which directly translates Shades-->Tints:
 ![Luminosity Ramp](https://user-images.githubusercontent.com/6015639/30140383-f5238706-9328-11e7-8c17-fad92e8d7a3c.png)
 
-Here is the C (chromacity) component, which, as far as I can tell, is a great stand-in for "Tones":
+Here is the C (chromacity) component, which, as far as I can tell, is a great stand-in for Tones.  A tone is supposed to desaturate to a grey color eventually-- but not just a 50% grey or anything arbitrary.  It should remain a consistent lightness.  Notice how this yellow does _not_ go to bright white, but rather a light grey:
 ![Chromacity Ramp](https://user-images.githubusercontent.com/6015639/30140486-e7a10404-9329-11e7-8a6a-b8f4459b97ec.png)
 
 Finally, H (hue).  What seems like the most straightforward dimension is actually pretty complex.  The HCY model trys to accomodate for how our eyes respond to light wavelengths differently.  So, when you adjust only the hue you still have a color of similar brightness and chromacity.
