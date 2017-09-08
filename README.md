@@ -35,13 +35,13 @@ Traditional artists don't (generally) think or work in terms of HSV, RGB, CMYK, 
 
 Fortunately, the [HCY](http://chilliant.blogspot.com/2012/08/rgbhcy-in-hlsl.html) colorspace seems to map directly to these dimensions in a straightforward manner:
 
-Here is the Y (luminosity) component, which directly translates Shades-->Tints:
+Below is the Y (luminosity) component, which directly translates Shades-->Tints:
 ![Luminosity Ramp](https://user-images.githubusercontent.com/6015639/30140383-f5238706-9328-11e7-8c17-fad92e8d7a3c.png)
 
-Here is the C (chromacity) component, which, as far as I can tell, is a great stand-in for Tones.  A tone is supposed to desaturate to a grey color eventually-- but not just a 50% grey or anything arbitrary.  It should remain a consistent lightness.  Notice how this yellow does _not_ go to bright white, but rather a light grey:
+Here, below, is the C (chromacity) component, which, as far as I can tell, is a great stand-in for Tones.  A tone is supposed to desaturate to a grey color eventually-- but not just a 50% grey or anything arbitrary.  It should remain a consistent lightness.  Notice how this yellow does _not_ go to bright white, but rather a light grey:
 ![Chromacity Ramp](https://user-images.githubusercontent.com/6015639/30140486-e7a10404-9329-11e7-8a6a-b8f4459b97ec.png)
 
-Finally, H (hue).  What seems like the most straightforward dimension is actually pretty complex.  The HCY model trys to accomodate for how our eyes respond to light wavelengths differently.  So, when you adjust only the hue you still have a color of similar brightness and chromacity.  I started with Yellow, so all the other colors keep that same overall lightness:
+Finally, below is H (hue).  What seems like the most straightforward dimension is actually pretty complex.  The HCY model trys to accomodate for how our eyes respond to light wavelengths differently.  So, when you adjust only the hue you still have a color of similar brightness and chromacity.  I started with Yellow, so all the other colors keep that same overall lightness:
 ![Hue ramp](https://user-images.githubusercontent.com/6015639/30140567-60432c48-932a-11e7-93b3-cad3fe77148a.png)
 
 ## Subtractive vs Additive Color Mixing
@@ -73,4 +73,4 @@ Clearly, the subtractive mode is more familar and pleasant for anyone interested
 
 ![hue shift image](https://user-images.githubusercontent.com/6015639/30147782-056b3556-9355-11e7-95d2-75f44d511f8b.png)
 
-Linear Additive stays very bright and vivid, while the other two modes are more dim.  The Standard Additive and Subtractive modes don't seem very different here, which is probably why the Standard Additive is considered "good enough" for most programmers and artists.  Hopefully Scott Burns' model will become the new "good enough" until we reach the next breakthrough in simulating pigments.
+Linear Additive stays very bright and vivid, while the other two modes are more dim.  The Standard Additive and Subtractive modes don't seem very different here, which is probably why the Standard Additive is considered "good enough" for most programmers and artists.  Also, when doing a hue shift like this, we're only blending adjacent hues.  The benefits of subtractive modeling really start to show when you blend complementary or more disparate hues, or varying tints/tones/shades. Hopefully Scott Burns' model will become the new "good enough" until we reach the next breakthrough in simulating pigments.
