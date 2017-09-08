@@ -17,7 +17,7 @@ Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/C
 
 Corel Painter's "Temporal Colors Palette" gets it somewhat better, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface with the vivid color wheel still impose a significant Contrast Effect upon your color picking decisions.
 
-![Corel Temporal Palette](https://user-images.githubusercontent.com/6015639/30140110-0f4f69e4-9327-11e7-95d6-5351854fec64.png)
+![Corel Temporal Palette](https://user-images.githubusercontent.com/6015639/30222803-0976bdae-947d-11e7-9ec6-e6464f1e53e8.png)
 
 It seems that it's impossible to select a color from an interface without the interface also influencing the color selection.  Does this explain our tendency to select rather overly saturated colors?  Is this one reason why so many digital paintings "look digital"? Why don't we just get rid of the interface and allow the color selection to be influenced by the context within the actual painting?  I should add, we don't want to isolate our colors on some virtual palette on another monitor or in another universe: we _want_ the contrast effect _from our painting_ (_not_ our interface or anything else) to influence our color decisions. To achieve this we can place little swatches of color directly on our painting; just like getting paint samples from the home improvement store!  Except here, we can have unlimited swatches for free without getting the authorities involved.
 
