@@ -11,7 +11,7 @@ The 3 grey rectangles below are identical and have no color, yet the square on t
 
 ![Contrast Effect](https://user-images.githubusercontent.com/6015639/30140938-e5338892-932c-11e7-9b34-949dd61dfe26.png)
 
-Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/Contrast_effect), how are we supposed to use these things with a high degree of precision and control?
+The illusion above is only noticeable because of the way the colors are arranged, however _everything_ we see is being affected by this same exact phenomenon.  Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/Contrast_effect), how are we supposed to mix and choose colors with a high degree of control when the actual _tools_ interfere with the vision process?
 
 ![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png) ![Painter's palette](https://user-images.githubusercontent.com/6015639/30223050-217a9118-947e-11e7-83b5-818725827c2d.png)
 
