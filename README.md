@@ -13,7 +13,7 @@ The 3 grey rectangles below are identical and have no color, yet the square on t
 
 Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/Contrast_effect), how are we supposed to use these things with a high degree of precision and control?
 
-![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png)
+![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png) ![Painter's palette](https://user-images.githubusercontent.com/6015639/30223050-217a9118-947e-11e7-83b5-818725827c2d.png)
 
 Corel Painter's "Temporal Colors Palette" gets it somewhat better, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface with the vivid color wheel still impose a significant Contrast Effect upon your color picking decisions.
 
