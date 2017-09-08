@@ -13,18 +13,18 @@ The 3 grey rectangles below are identical and have no color, yet the square on t
 
 The illusion above is only noticeable because of the way the colors are arranged, however _everything_ we see is being affected by this same exact phenomenon.  Given what we know about [Simultaneous Contrast](https://en.wikipedia.org/wiki/Contrast_effect), how are we supposed to mix and choose colors with a high degree of control when the actual _tools_ interfere with the vision process?
 
-![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png) ![Painter's palette](https://user-images.githubusercontent.com/6015639/30223050-217a9118-947e-11e7-83b5-818725827c2d.png)
+![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png)   ![Painter's palette](https://user-images.githubusercontent.com/6015639/30223050-217a9118-947e-11e7-83b5-818725827c2d.png)  ![Computer Palette](https://user-images.githubusercontent.com/6015639/30229421-b9aaafc8-9496-11e7-9cf0-e21645444138.png)
 
 One option is to simply get used to it, and [develop rules](http://www.artistsnetwork.com/medium/pastel/the-contrast-effect-important-rules-for-landscape-painting) to help guide your color selections, and knowing that "nothing is what it is until it has a relationship", as Richard McKinley says in the linked article.
 Corel Painter's "Temporal Colors Palette" (below) seems to understand this somewhat, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface with the vivid color wheel still imposes a significant Contrast Effect upon your color picking decisions, how could it _not_?
 
-![Corel Temporal Palette](https://user-images.githubusercontent.com/6015639/30222803-0976bdae-947d-11e7-9ec6-e6464f1e53e8.png)
+![Corel Temporal Palette](https://user-images.githubusercontent.com/6015639/30222803-0976bdae-947d-11e7-9ec6-e6464f1e53e8.png) ![Corel Temporal Palette in context](https://user-images.githubusercontent.com/6015639/30229320-3f722718-9496-11e7-87f0-0a5a407bbf7f.png)
 
 It seems that it's impossible to select a color from an interface without the interface also influencing the color selection.  Does this explain our tendency to select rather overly saturated colors?  Is this one reason why so many digital paintings "look digital"? 
 
 Why don't we just get rid of the interface and allow the color selection to be influenced by the context within the actual painting?  I should add, we don't want to isolate our colors on some virtual palette on another monitor or in another universe: we _want_ the contrast effect _from our painting_ (_not_ our interface or anything else) to influence our color decisions. To achieve this we can place little swatches of color directly on our painting; just like getting paint samples from the home improvement store!  Except here, we can have unlimited swatches for free without getting the authorities involved.
 
-![interface-less color selector](https://user-images.githubusercontent.com/6015639/30137831-0f476df0-931a-11e7-82ce-811f6f67d410.png)
+![interface-less color adjuster](https://user-images.githubusercontent.com/6015639/30137831-0f476df0-931a-11e7-82ce-811f6f67d410.png) ![interface-less color adjuster](https://user-images.githubusercontent.com/6015639/30229508-1c2ec38c-9497-11e7-92e9-fef6453fbc9a.png)
 
 The only problem now is that the interface has to exist somewhere and be operable even when you're not looking at it.   Fortunately, we've long ago invented keyboards and other devices with whole arrays of buttons to choose from.  We can map some buttons to adjust our colors in whatever dimensions we choose.  Hue is an obvious dimension.  What about brightness and saturation?  Then it gets a bit more complicated.
 
