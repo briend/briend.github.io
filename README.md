@@ -16,7 +16,7 @@ The illusion above is only noticeable because of the way the colors are arranged
 ![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png) ![Painter's palette](https://user-images.githubusercontent.com/6015639/30223050-217a9118-947e-11e7-83b5-818725827c2d.png)
 
 One option is to simply get used to it, and [develop rules](http://www.artistsnetwork.com/medium/pastel/the-contrast-effect-important-rules-for-landscape-painting) to help guide your color selections, and knowing that "nothing is what it is until it has a relationship", as Richard McKinley says in the linked article.
-Corel Painter's "Temporal Colors Palette" seems to understand this somewhat, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface with the vivid color wheel still imposes a significant Contrast Effect upon your color picking decisions, how could it _not_?
+Corel Painter's "Temporal Colors Palette" (below) seems to understand this somewhat, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface with the vivid color wheel still imposes a significant Contrast Effect upon your color picking decisions, how could it _not_?
 
 ![Corel Temporal Palette](https://user-images.githubusercontent.com/6015639/30222803-0976bdae-947d-11e7-9ec6-e6464f1e53e8.png)
 
