@@ -51,7 +51,7 @@ Finally, below is H (hue).  What seems like the most straightforward dimension i
 
 Perhaps the greatest hurdle facing digital program's approximation of traditional media is the fact that almost any program works in a method better suited for [lights](https://en.wikipedia.org/wiki/Additive_color) instead of paints.  That is, light bulbs and lasers instead of actual pastel chalks, oil paints, acrylics, etc.  In other words, it's completely backwards and upside-down.
 
-If you think you might be clever and force RGB into some kind of [subtractive](https://en.wikipedia.org/wiki/Subtractive_color) mode by simply multiplying your colors together instead of adding them, you're going to have a [bad time](https://user-images.githubusercontent.com/6015639/30145745-5bcdb14c-9348-11e7-91bb-201747b398d3.png).  Most colors will blend to horrible greys or even blacks unless you use precisely the colors Cyan, Magenta, and Yelllow:
+If you think you might be clever and force RGB into some kind of [subtractive](https://en.wikipedia.org/wiki/Subtractive_color) mode by simply multiplying your colors together instead of adding them, or switching RGB with RYB primares. . . you're going to have a [bad time](https://user-images.githubusercontent.com/6015639/30145745-5bcdb14c-9348-11e7-91bb-201747b398d3.png).  Most colors will blend to horrible greys or even blacks unless you use precisely the colors Cyan, Magenta, and Yellow (RGB) or Orange, Green, and Magenta (RYB):
 
 ![Subtractive Mixing](https://user-images.githubusercontent.com/6015639/30145885-6d4f4d26-9349-11e7-983f-607494f1d3cd.png)
 
