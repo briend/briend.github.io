@@ -15,7 +15,8 @@ The illusion above is only noticeable because of the way the colors are arranged
 
 ![Color Selection Tool](https://user-images.githubusercontent.com/6015639/30137777-d14ef72a-9319-11e7-91bd-e38c0bbb120e.png) ![Painter's palette](https://user-images.githubusercontent.com/6015639/30223050-217a9118-947e-11e7-83b5-818725827c2d.png)
 
-Corel Painter's "Temporal Colors Palette" gets it somewhat better, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface with the vivid color wheel still impose a significant Contrast Effect upon your color picking decisions.
+One option is to simply get used to it, and [develop rules](http://www.artistsnetwork.com/medium/pastel/the-contrast-effect-important-rules-for-landscape-painting) to help guide your color selections, and knowing that "nothing is what it is until it has a relationship", as Richard McKinley says in the linked article.
+Corel Painter's "Temporal Colors Palette" seems to understand this somewhat, as it shows the new color superimposed on your painting as a round "swatch".  However, the interface with the vivid color wheel still imposes a significant Contrast Effect upon your color picking decisions, how could it _not_?
 
 ![Corel Temporal Palette](https://user-images.githubusercontent.com/6015639/30222803-0976bdae-947d-11e7-9ec6-e6464f1e53e8.png)
 
@@ -36,9 +37,11 @@ Traditional artists don't (generally) think or work in terms of HSV, RGB, CMYK, 
 Fortunately, the [HCY](http://chilliant.blogspot.com/2012/08/rgbhcy-in-hlsl.html) colorspace seems to map directly to these dimensions in a straightforward manner:
 
 Below is the Y (luminosity) component, which directly translates Shades-->Tints:
+
 ![Luminosity Ramp](https://user-images.githubusercontent.com/6015639/30140383-f5238706-9328-11e7-8c17-fad92e8d7a3c.png)
 
 Here, below, is the C (chromacity) component, which, as far as I can tell, is a great stand-in for Tones.  A tone is supposed to desaturate to a grey color eventually-- but not just a 50% grey or anything arbitrary.  It should remain a consistent lightness.  Notice how this yellow does _not_ go to bright white, but rather a light grey:
+
 ![Chromacity Ramp](https://user-images.githubusercontent.com/6015639/30140486-e7a10404-9329-11e7-8a6a-b8f4459b97ec.png)
 
 Finally, below is H (hue).  What seems like the most straightforward dimension is actually pretty complex.  The HCY model trys to accomodate for how our eyes respond to light wavelengths differently.  So, when you adjust only the hue you still have a color of similar brightness and chromacity.  I started with Yellow, so all the other colors keep that same overall lightness:
