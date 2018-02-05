@@ -32,20 +32,9 @@ The only problem now is that the interface has to exist somewhere and be operabl
 
 Most programs will give you color selectors in the [HSV or HSL](https://en.wikipedia.org/wiki/HSL_and_HSV) color space.  There are [many more models](http://c-128.freeforums.net/thread/94/color-chroma-saturation) to sift through.  The important thing for us is not what the wheels look like. Remember, we just talked about how the _interface will blind you_ through the Contrast Effect.  That includes any kind of color wheel.  What we need is a color model that is intuitive and practical for the artist to use with a few buttons; "out of sight, _in_ the mind".
 
-Traditional artists don't (generally) think or work in terms of HSV, RGB, CMYK, etc.  They work usually work in [Tints, Tones, Shades](https://en.wikipedia.org/wiki/Tints_and_shades), and [Hue](https://en.wikipedia.org/wiki/Hue).  HSV and many others don't really seem to translate into this type of model.  For instance, in HSV, the "Value" scale doesn't actually go from black to white.  Neither HSV nor HSL seem to give you Tones, either: a pure red will desaturate to "white" in the HSV model, while HSL will always produce a 50% grey tone no matter if you start with a pure red, blue, or yellow.
+Traditional artists don't (generally) think or work in terms of HSV, RGB, CMYK, etc.  They usually work in [Tints, Tones, Shades](https://en.wikipedia.org/wiki/Tints_and_shades), and [Hue](https://en.wikipedia.org/wiki/Hue).  HSV and many others don't really seem to translate into this type of model.  For instance, in HSV, the "Value" scale doesn't actually go from black to white.  Neither HSV nor HSL seem to give you Tones, either: a pure red will desaturate to "white" in the HSV model, while HSL will always produce a 50% grey tone no matter if you start with a pure red, blue, or yellow.
 
-Fortunately, the [HCY](http://chilliant.blogspot.com/2012/08/rgbhcy-in-hlsl.html) colorspace seems to map directly to these dimensions in a straightforward manner:
-
-Below is the Y (luminosity) component, which directly translates Shades-->Tints:
-
-![Luminosity Ramp](https://user-images.githubusercontent.com/6015639/30140383-f5238706-9328-11e7-8c17-fad92e8d7a3c.png)
-
-Here, below, is the C (chromacity) component, which, as far as I can tell, is a great stand-in for Tones.  A tone is supposed to desaturate to a grey color eventually-- but not just a 50% grey or anything arbitrary.  It should remain a consistent lightness.  Notice how this yellow does _not_ go to bright white, but rather a light grey:
-
-![Chromacity Ramp](https://user-images.githubusercontent.com/6015639/30140486-e7a10404-9329-11e7-8a6a-b8f4459b97ec.png)
-
-Finally, below is H (hue).  What seems like the most straightforward dimension is actually pretty complex.  The HCY model trys to accomodate for how our eyes respond to light wavelengths differently.  So, when you adjust only the hue you still have a color of similar brightness and chromacity.  I started with Yellow, so all the other colors keep that same overall lightness:
-![Hue ramp](https://user-images.githubusercontent.com/6015639/30140567-60432c48-932a-11e7-93b3-cad3fe77148a.png)
+It seems the best solution would be to use something called a Color Appearance Model.  Models such as CIECAM allow you to specify colors in absolute measurements of their attributes such as lightness, brightness, colorfulness, chroma, saturation, and hue.
 
 ## Subtractive vs Additive Color Mixing
 
@@ -72,8 +61,4 @@ From left to right.  Linear Light Additive mixing, Typical Standard Additive mix
 
 ![Mixing Comparison](https://user-images.githubusercontent.com/6015639/30146472-255839fc-934d-11e7-96ae-b8420716ea4b.png)
 
-Clearly, the subtractive mode is more familar and pleasant for anyone interested in painting.  However, it's not that additive mixing has no use.  If you really want to paint rainbows, you probably want Linear Light additive mixing since you are literally trying to mimic light.  Here's a another comparison of a hue shift through HCY.  From top to bottom we have Linear Additive, Standard Additive, and Subtractive:
-
-![hue shift image](https://user-images.githubusercontent.com/6015639/30147782-056b3556-9355-11e7-95d2-75f44d511f8b.png)
-
-Linear Additive stays very bright and vivid, while the other two modes are more dim.  The Standard Additive and Subtractive modes don't seem very different here, which is probably why the Standard Additive is considered "good enough" for most programmers and artists.  Also, when doing a hue shift like this, we're only blending adjacent hues.  The benefits of subtractive modeling really start to show when you blend complementary or more disparate hues, or varying tints/tones/shades. Hopefully Scott Burns' model will become the new "good enough" until we reach the next breakthrough in simulating pigments.
+Clearly, the subtractive mode is more familar and pleasant for anyone interested in painting.  However, it's not that additive mixing has no use.  If you really want to paint rainbows, you probably want Linear Light additive mixing since you are literally trying to mimic light.
