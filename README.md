@@ -1,11 +1,8 @@
-# Brien Dieterle
-
 [My Gallery](https://www.flickr.com/photos/briend/) | [My Videos](https://www.youtube.com/user/briendieterle) | [My Projects](https://github.com/briend)
 
+# Technical challenges in digital painting
 
-# Problems In Painting
-
-## Contrast Effect
+## Contrast effect
 
 The 3 grey rectangles below are identical and have no color, yet the square on the left appears bluish, and the right appears reddish.
 
