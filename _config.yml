@@ -1,1 +1,21 @@
+# Site settings
+title: Brien Dieterle
+description: "Artist and Illustrator"
+baseurl: ""
+url: "https://briendieterle.com"
+twitter_username: briendieterle
+github_username:  briend
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: "on"
+
 theme: jekyll-theme-modernist
