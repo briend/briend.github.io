@@ -10,3 +10,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 
 plugins:
   - jekyll-include-cache
+  
+header:
+image: /assets/images/header.jpg
+
