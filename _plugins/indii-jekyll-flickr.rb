@@ -37,8 +37,8 @@ def self.flickr_setup(site)
         end
 
         # populate cache from Flickr
-        FlickRaw.api_key = site.config['flickr']['api_key']
-        FlickRaw.shared_secret = site.config['flickr']['api_secret']
+        #FlickRaw.api_key = site.config['flickr']['api_key']
+        #FlickRaw.shared_secret = site.config['flickr']['api_secret']
 
         nsid = flickr.people.findByUsername(:username => site.config['flickr']['screen_name']).id
         flickr_photosets = flickr.photosets.getList(:user_id => nsid)
